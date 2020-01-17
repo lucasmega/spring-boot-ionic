@@ -3,11 +3,10 @@ package com.lucasmega.cursomc.services;
 import javax.mail.internet.MimeMessage;
 
 import org.springframework.mail.SimpleMailMessage;
-import org.springframework.stereotype.Service;
 
 import com.lucasmega.cursomc.domain.Cliente;
 import com.lucasmega.cursomc.domain.Pedido;
-@Service
+
 public interface EmailService {
 
 	void sendOrderConfirmationEmail(Pedido obj);
