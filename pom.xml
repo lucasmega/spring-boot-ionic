@@ -91,11 +91,6 @@
 			<version>0.7.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-		</dependency>
-
 	</dependencies>
 
 	<build>

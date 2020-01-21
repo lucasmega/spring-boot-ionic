@@ -11,7 +11,7 @@ import com.lucasmega.cursomc.repositories.ClienteRepository;
 import com.lucasmega.cursomc.security.UserSpringSecurity;
 
 @Service
-public class UserDetailsServiceImplements implements UserDetailsService {
+public class UserDetailsServiceImpl implements UserDetailsService {
 	
 	@Autowired
 	private ClienteRepository clienteRepository;
